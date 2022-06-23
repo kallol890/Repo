@@ -1,4 +1,4 @@
-1. What is version Control System
+1.What is version Control System
 ans:- A version control system is a software that tracks changes to a file or set of files over time so that you can recall specific versions later. It also allows you t
 o work together with other programmers.
 The version control system is a collection of software tools that help a team to manage changes in a source code. It uses a special kind of database to keep track of eve
@@ -26,4 +26,11 @@ Ans:- Git Bash is an application that provides Git command line experience on th
 Ans:- Commits are the core building block units of a Git project timeline. Commits can be thought of as snapshots or milestones along the timeline of a Git project.Commit
 s are created with the git commit command to capture the state of a project at that point in time
 
+8. What is Merge conflict in Git?
+Ans: A merge conflict is an event that takes place when Git is unable to automatically resolve differences in code between two commits. Git can merge the changes automat
+ically only if the commits are on different lines or branches.
 
+9. How to resolve the conflict?
+Ans:- The easiest way to resolve a conflicted file is to open it and make any necessary changes.
+After editing the file, we can use the git add a command to stage the new merged content.
+The final step is to create a new commit with the help of the git commit command.
